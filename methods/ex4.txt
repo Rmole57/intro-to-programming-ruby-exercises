@@ -1,0 +1,15 @@
+What will the following code print to the screen?
+
+def scream(words)
+  words = words + "!!!!"
+  return
+  puts words
+end
+
+scream("Yippeee")
+
+ANSWER:
+
+Nothing because there is an explicit return before the 'puts' method is invoked,
+meaning Ruby exited the 'scream' method via the 'return' reserved word before 'puts' 
+could be called.
