@@ -1,10 +1,11 @@
-=begin
 No code in this exercise per se but was asked about the meaning of the following error message:
 
 SyntaxError: (irb):2: syntax error, unexpected ')', expecting '}'
   from /usr/local/rvm/rubies/ruby-2.0.0-rc2/bin/irb:16:in `<main>'
 
+ANSWER:
+
 My interpretation is that a syntax error occured on line 2 of the file's code where a ')' was
 put where a '}' should have been, most likely due to an open curly brace '{' appearing 
 earlier in the code.
-=end
+

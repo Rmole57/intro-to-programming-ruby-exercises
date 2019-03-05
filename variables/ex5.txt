@@ -1,4 +1,3 @@
-=begin
 This exercise just asks some questions about the following pieces of code:
 
 x = 0
@@ -18,6 +17,8 @@ puts x
 Do they both give errors? 
 Are the errors different? Why?"
 
+ANSWER:
+
 In the first program 'puts x' will print out 3.
 
 In the second program 'puts x' won't print out anything and instead there 
@@ -30,6 +31,4 @@ do/end block (defined as a block because it follows a method invocation) and
 then the program attempts to access x (an inner scope variable) from the outer 
 scope with 'puts'. However, x is not available to the outer scope as it was 
 created/initialized within the scope of the code block (inner scope).
- 
-=end
 
