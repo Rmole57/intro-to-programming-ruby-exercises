@@ -11,8 +11,8 @@ an object to compare to the argument I provided the case statement with.
 
 This was mainly a way of me solving this exercsie in a more uncomfortable way as
 using boolean expressions in 'when' clauses is much like using if/else statements. 
-I thought it would be both important and beneficial for me to practice it this way 
-and 'rubber duck' the solution.
+I thought it would be both beneficial and inmportant for me to practice it this way 
+and explain out the respective processes and functionality of each solution.
 =end
 
 # Defines 'range' method to carry out range evaluation from Exercise 3 program.
