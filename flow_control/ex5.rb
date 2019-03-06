@@ -7,7 +7,7 @@ evaluates to a boolean. Then the case statement would be evaluating the truthine
 of the object in each 'when' clause.
 
 However, by providing the case statement with an argument, each 'when' clause is given 
-an object to compare to the argument I provide the case statement with.
+an object to compare to the argument I provided the case statement with.
 
 This was mainly a way of me solving this exercsie in a more uncomfortable way as
 using boolean expressions in 'when' clauses is much like using if/else statements. 
