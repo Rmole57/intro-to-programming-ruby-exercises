@@ -1,0 +1,16 @@
+Exercise 1 from 'Loops and Iterators' chapter.
+
+QUESTION:
+
+What does the 'each' method in the following program return after it is finished executing?
+
+x = [1, 2, 3, 4, 5]
+x.each do |a|
+  a + 1
+end
+
+ANSWER:
+
+=> [1, 2, 3, 4, 5]
+
+It returns this because the 'each' method will always return the original object (in this case, array) that it was called on.
