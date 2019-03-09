@@ -1,0 +1,24 @@
+Exercise 6 from 'Arrays' chapter in book.
+
+QUESTION:
+
+You run the following code...
+
+names = ['bob', 'joe', 'susan', 'margaret']
+names['margaret'] = 'jody'
+
+...and get the following error message:
+
+TypeError: no implicit conversion of String into Integer
+  from (irb):2:in `[]='
+  from (irb):2
+  from /Users/username/.rvm/rubies/ruby-2.0.0-p353/bin/irb:12:in `<main>'
+
+What is the problem and how can it be fixed?
+
+ANSWER:
+
+The problem is you are trying to access the 'margaret' element of the array by its value, a string, and not by its index, an integer. However, arrays are indexed with integers, not strings. With arrays, you need to use the index as the key if you want to modify/set the value. You can do that like so:
+
+names[3] = 'jody'
+=> ["bob", "joe", "susan", "jody"]
