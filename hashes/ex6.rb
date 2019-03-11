@@ -59,9 +59,14 @@ result.each_value do |v|
   p v
 end
 
-In this solution the 'split' method is used to return an array of substrings 
-(as opposed to my use of the 'chars' method). I also utilized the shovel operator,
-'<<', rather than using the 'push' method. Also, I decided to sort each anagram collection
-into alphabetical order for aesthetic purposes.
+In this solution the 'split' method is used to return an array of character substrings 
+(as opposed to my use of the 'chars' method). 'split' is a more versatile method as you can pass
+a custom delimiter in as an argument, whereas 'char' only returns substrings of characters, which 
+works just fine in this case. 
+
+I also utilized the shovel operator, '<<', rather than using the 'push' method. 
+
+Finally, I decided to sort each anagram collection by key into alphabetical order for aesthetic 
+purposes when presenting the printed out data.
 
 =end
