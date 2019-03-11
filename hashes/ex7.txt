@@ -1,0 +1,19 @@
+Exercise 7 from the 'Hashes' chapter of the book.
+
+QUESTION:
+
+Given the following code...
+
+x = "hi there"
+my_hash = {x: "some value"}
+my_hash2 = {x => "some value"}
+
+What's the difference between the two hashes that were created?
+
+ANSWER:
+
+'my_hash' contains a key-value pair that is the symbol 'x' as the key and 'some value' as the value:
+ => {:x=>"some value"}
+
+However, 'my_hash2' contains a key-value pair with the variable 'x', defined as the string "hi there" as the key and 'some value' as the value:
+=> {"hi there"=>"some value"}
