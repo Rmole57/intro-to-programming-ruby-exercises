@@ -39,7 +39,7 @@ to the 'anagrams' hash and the 'word' to the key as an array value for the key-v
 (this is so we can append multiple string values to each key and store each key's values 
 as an array of strings).
 
-Prints all values in 'anagrams' hash.
+Prints all values in 'anagrams' hash, grouped as arrays of strings.
 
 ALTERNATIVE SOLUTION GIVEN BY BOOK:
 
