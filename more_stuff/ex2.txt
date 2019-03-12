@@ -1,0 +1,17 @@
+Exercise 2 from "More Stuff" chapter of the book.
+
+QUESTION:
+
+What will the following program print to the screen? What will it return?
+
+def execute(&block)
+  block
+end
+
+execute { puts "Hello from inside the execute method!" }
+
+ANSWER:
+
+The method will print nothing because there was never a 'call' method invoked on the block in the defintion.
+
+The method will return a Proc object.

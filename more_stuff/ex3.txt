@@ -1,0 +1,11 @@
+Exercise 3 from "More Stuff" chapter of the book.
+
+QUESTION:
+
+What is exception handling and what problem does it solve?
+
+ANSWER:
+
+Exception handling is a specific process/structure that is put in place specifically to deal with possible errors in a manageable and predictable way. By changing the flow of control, we allow our programs to continue running after they've encountered errors rather than being broken by one single error, in which case the program is exited without executing the rest of the code beyond the error.
+
+(BOOK'S SOLUTION: Exception handling is a structure used to handle the possibility of an error occurring in a program. It is a way of handling the error by changing the flow of control without exiting the program entirely.)
