@@ -1,0 +1,13 @@
+Exercise 7 of the 'Introduction to Programming with Ruby' book.
+
+QUESTION:
+
+What's the major difference between an Array and a Hash?
+
+ANSWER:
+
+The major difference between an Array and a Hash is that Arrays are referenced by index while Hashes are referenced by key: 
+
+Arrays contain elements that all have their own index, starting from 0. So in order to access items/values in an array you must know their indices. 
+
+On the other hand, Hashes contain what are known as "key-value pairs". These are a collection of keys, unique to that Hash, that are assigned specified values. In order to access these values you must know their respective keys.

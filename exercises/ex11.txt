@@ -1,0 +1,11 @@
+Exercise 11 of the 'Introduction to Programming with Ruby' book.
+
+QUESTION:
+
+Look at several Rails/Ruby online API sources and say which one you like best and why.
+
+ANSWER:
+
+After reviewing some other Ruby API options out there I honestly find the official documentation at ruby-doc.org to be the most useful. It lays everything out very clearly and the navigation is very intuitive. It also provides simple, easy-to-understand examples for each method. Also, it always clarifies what each method "does" and what each method "returns", which I now understand is of the utmost importance when deciding which method to utilize for my particular purposes.
+
+Truthfully, I don't know enough about the Rails framework just yet to make an informed decision as to which Rails API I find most useful or to be my "favorite". However, I plan on thoroughly searching for one as I progress and eventually dive into Rails.

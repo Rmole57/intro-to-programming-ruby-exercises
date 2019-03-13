@@ -1,0 +1,17 @@
+Exercise 10 of the 'Introduction to Programming with Ruby' book.
+
+QUESTION:
+
+Can hash values be arrays? Can you have an array of hashes? (give examples)
+
+ANSWER:
+
+Yes, hash values can be arrays. 
+Example:
+hash_nums = {odds: [1, 3, 5], evens: [2, 4, 6]}
+=> {odds: [1, 3, 5], evens: [2, 4, 6]}
+
+Yes, you can have an array of hashes. 
+Example:
+arr_pets = [{dogs: "woof"}, {cats: "meow"}]
+=> [{dogs: "woof"}, {cats: "meow"}]

@@ -1,0 +1,20 @@
+Exercise 17 of the 'Introduction to Programming with Ruby' book.
+
+QUESTION:
+
+What will the following program output?
+
+hash1 = {shoes: "nike", "hat" => "adidas", :hoodie => true}
+hash2 = {"hat" => "adidas", :shoes => "nike", hoodie: true}
+
+if hash1 == hash2
+  puts "These hashes are the same!"
+else
+  puts "These hashes are not the same!"
+end
+
+ANSWER:
+
+These hashes are the same!
+
+NOTE: In Ruby Hashes can still be equal whether or not they are in the same order because we rely on their keys to reference/access them (this is unlike Arrays which, in order to be considered 'equal', always need to be written in the same order). Also, Hashes don't need to be written in the same exact syntax so long as the key-value pairs match up correctly.
